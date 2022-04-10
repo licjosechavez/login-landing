@@ -1,0 +1,28 @@
+Primero vamos a crear un repo para esta práctica pueden llamarla "login-landing".
+
+👉 Vamos a subir un ejercicio donde vamos a maquetar el siguiente diseño adjunto *mockuplogin.png*, primero realizaremos el Mockup (en Whimsical) el cual vamos a exportarlo en .jpg por si queres compartir tu avance en Discord y luego estructuramos con HTML5 el esqueleto del sitio + estilamos con CSS3.
+
+Por último, agarrar el repo del desafío anterior y vincularlo con Vercel.
+Compartí el link en el canal privado de Discord.
+
+Para la parte de etiquetas en HTML de base si o si vamos a trabajar con las siguientes:
+article | img | form | a | link | input
+
+Luego si ustedes le dan otra vuelta de rosca, agregan o le dan su impronta con otros tags, mejor aún!
+Luego para la parte de estilar elementos tenemos 2 opciones:
+
+🔴 Estilar por medio de selectores: Podemos simplemente nombrar la etiqueta de HTML y aplicar las propiedades que necesitamos.
+¡Ojota! dichas propiedades se aplicarán a todas las esas etiquetas del sitio. Por ejemplo esto haría que todos los párrafos del sitio tengan un tamaño de 16 pixeles.
+ej:
+p {
+font-size: 16px;
+}
+
+🔴 Estilar por medio de clases: Declarando una clase podemos hacer que las propiedades se apliquen sólo a lo elementos que queremos, ¡y podemos reutilizarla!
+ej:
+HTML
+Tommy Shelby
+
+.peakyblinders {
+font-size: 16px;
+}
